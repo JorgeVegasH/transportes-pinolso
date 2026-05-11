@@ -468,6 +468,17 @@ section#contact form#contactForm .form-control:focus {
 }
 
 @media (max-width: 991px) {
+  .footer-actions {
+    display: grid;
+    grid-template-columns: auto auto 2.65rem;
+    justify-content: end;
+    gap: 0.7rem;
+  }
+
+  .footer-top-button {
+    justify-self: end;
+  }
+
   .hero-slider,
   .hero-content {
     min-height: 0;
@@ -609,6 +620,8 @@ section#contact form#contactForm .form-control:focus {
   }
 
   .footer-actions {
-    justify-content: center;
+    grid-template-columns: auto auto 2.65rem;
+    justify-content: end;
+    width: 100%;
   }
 }
